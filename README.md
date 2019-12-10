@@ -1,2 +1,2 @@
-# rl_curvy
-Repository for deployed RL Game Curvy
+# 2048_rl
+Repository for deployed RL model to play the Game 2048.
