@@ -17,7 +17,9 @@ For calculating the Q Values we used a Neural Network, rather than just showing 
 
 Fig: Max tile obtained on each game as NN training proceeds. Its visible that the model is able to learn the strategy within 600 Epochs as the number of tiles with 512 is much more towards the end.
 
-Also from observation the model was able to learn the common heuristic amongst player to keep the maxnumbered tile at one corner and surround it with monotonically increasing tiles. This helps in combining the tiles in a series. 
+![](https://github.com/dsgiitr/rl_2048/blob/master/monotonicity.png)
+
+Also from observation the model was able to learn the common heuristic amongst player to keep the maximum numbered tile at one corner and surround it with monotonically increasing tiles. This helps in combining the tiles in a series. 
 
 ## Repository Structure
 - DQN_Agent_2048.ipynb-Main notebook to train/test the DQN, also contains the definitions of the deep learning models
