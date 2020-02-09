@@ -33,6 +33,7 @@ This project requires:
 - Keras
 - Gym (OpenAI Gym)
 - Matplotlib
+
 Once everything is installed open the DQN_Agent_2048.ipynb file on a jupyter notebook and run the cells.
 
 ## Future Work
