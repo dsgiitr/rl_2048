@@ -1,6 +1,8 @@
 # Q Learning Agent to Play 2048
 Implementation of deep Q-network to play the game 2048 using Keras.
 
+<img align="center" src="https://dsgiitr.com/images/work/rl2048.jpeg">
+
 ## Deep Q-Learning
 Q-Learning is a reinforcement learning algorithm that seeks to find the best action to take given the current state. The expected reward of a action at that step is known as the Q-Value. It is stored in a table for each state, future state tuple. For most environments keeping track of the number of possible states and all possible combinations of these state is extremely difficult. Hence instead of storing these Q-Values we approximate them using Neural networks, this is known as a Deep Q-Network.
 Read more at-
@@ -46,8 +48,7 @@ This work is in the very elementry stage and we'd like to improve upon the follo
 - Run the game for more iterations (1,000,000)
 
 ## References
-1. https://github.com/SergioIommi/DQN-2048
-2. https://github.com/berkay-dincer/2048-ai-mcts
-3. https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b
-4. http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
-5. https://papers.nips.cc/paper/3964-double-q-learning
+* https://github.com/berkay-dincer/2048-ai-mcts
+* https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b
+* http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+* https://papers.nips.cc/paper/3964-double-q-learning
